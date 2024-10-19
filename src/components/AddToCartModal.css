@@ -1,0 +1,110 @@
+
+
+.horizontal{
+    background-color: gray;
+    height: 1px;
+    width: 25vw;
+    border-radius: 2px;
+
+}
+.modal-heading{
+    color: darkgreen;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.quantity-selector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin: 16px 0;
+  }
+  
+  .quantity-btn {
+    width: 32px;
+    height: 32px;
+    font-size: 20px;
+    border: none;
+    border-radius: 50%;
+    background-color: #ddd;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .quantity-btn:hover {
+    background-color: #bbb;
+  }
+  
+  .quantity-selector input {
+    width: 50px;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 24px;
+    border-radius: 8px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative; /* Important to position the close button */
+  }
+  
+  
+  .modal-image {
+    width: 20vw;
+    height: 30vh;
+    margin-bottom: 16px;
+  }
+  
+  .modal-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    margin-top: 16px;
+  }
+  
+  .btn {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #ddd;
+    color: #333;
+    transition: background-color 0.3s;
+    width: 48%;
+  }
+  
+  .btn:hover {
+    background-color: #bbb;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+
+ 

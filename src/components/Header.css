@@ -1,0 +1,15 @@
+.header-bg {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    height: 80px;
+    background-color: #77a5eb;
+    border-bottom: 2px solid #ddd;
+  }
+.nav-head{
+    color: darkgreen;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
